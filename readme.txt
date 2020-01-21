@@ -1,4 +1,5 @@
+My name is Denghua Lei.
 
 I'm learning Python and Git.
 
-This folder 'PythonLearning' is histry of my learning.
+This folder 'PythonLearning' is history of my learning.
