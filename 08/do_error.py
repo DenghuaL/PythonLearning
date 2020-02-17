@@ -3,11 +3,22 @@
 
 import logging
 
+class FooError(ValueError):
+    pass
+
 def foo(s):
-    return 10 / int(s)
+    n = int(s)
+    if n == 0:
+        raise FooError('invalid value: %s' %s)
+    return 10 / n
 
 def bar(s):
-    return foo(s) * 2
+    try :
+        foo(s)
+    except ValueError as e:
+        print('ValueError!')
+        raise ValueError('value %s' %s)
+    
 
 def main():
     try:
@@ -17,3 +28,5 @@ def main():
 
 main()
 print('END')
+
+
