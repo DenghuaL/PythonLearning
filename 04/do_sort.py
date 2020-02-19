@@ -1,5 +1,5 @@
 #!usr/bin/env python3
-#--*-- coding: utf-8 --*--
+# -*- coding: utf-8 -*-
 
 L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
 
