@@ -1,5 +1,5 @@
 #!usr/bin/env python3
-#--*-- coding: utf-8 --*--
+# -*- coding: utf-8 -*-
 
 L1 = [x**2 for x in range(1,11) if x**2 % 2 != 0]
 print(L1)
