@@ -7,4 +7,9 @@ iter01 = itertools.count(2)
 
 
 for n in iter01:
-    print(n)
+    if n <= 10:
+        print(n)
+    else:
+        break
+
+
