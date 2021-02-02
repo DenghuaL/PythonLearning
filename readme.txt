@@ -1,4 +1,4 @@
-My name is Denghua.
+
 
 I'm learning Python and Git.
 
